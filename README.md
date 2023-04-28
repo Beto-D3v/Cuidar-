@@ -43,7 +43,9 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 
 ## Processo interno
 Dependências para rodar o projeto: [...]
+
 Banco de dados: [...]
+
 Iniciando o projeto: [...]
 
 # Testando a aplicação
