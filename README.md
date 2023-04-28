@@ -53,7 +53,7 @@ Iniciando o projeto: [...]
 [              ]
 
 ## Tela de cadastro
-[              ]
+Nesta tela, o usuário deverá digitar seus dados e preencher todos os campos obrigatórios (nome, e-mail, CPF, Idade, Telefone, Estado, Cidade, Área de atuação, Valor hora e número do documento Coren.
 
 ## Tela de login
 [              ]
