@@ -21,9 +21,9 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 
 # Tecnologias utilizadas
 ## Processo interno
-•	[...]
+•	C#
 
-•	[...]
+•	Entity Framework
 
 •	[...]
 
@@ -35,7 +35,7 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 •	[...]
 
 ## Banco de dados relacional
-•	[...]
+• Microsoft SQL
 # Executando o projeto
 ## Front-end
 
@@ -50,16 +50,14 @@ Iniciando o projeto: [...]
 
 # Testando a aplicação
 ## Tela de boas	 vindas
-[              ]
-
+Na primeira página, há duas opções de caminho para o usuário: clicar no botão de cadastro ou para a tela de Login. Caso ele não possua cadastro, ele poderá clicar em “Criar cadastro”. Caso ele já possua seus dados cadastrais, ele poderá efetuar o login
 ## Tela de cadastro
-
-
+Nesta tela, o usuário deverá digitar seus dados e preencher todos os campos obrigatórios (nome, e-mail, CPF, Idade, Telefone, Estado, Cidade, Área de atuação, Valor hora e número do documento Coren.
+Obs. importantes: o CPF deve ter 11 caracteres; a uf deve possuir 2 caracteres; o [*cep deve possuir 8 caracteres *]; A senha deve ter 6 caracteres, no mínimo; Senha e confirmação de senha devem ser iguais.
+Ao realizar o cadastro, as informações do usuário serão armazenadas em um banco de dados relacional.  
 ## Tela de login
-
-
-
-
+Ao receber a confirmação de análise dos dados cadastrais, o usuário poderá realizar o login. Lembrando que ambos os campos dessa tela são obrigatórios e que a senha deve ter no mínimo 6 caracteres.
+Caso as informações estejam de acordo, o usuário será redirecionado (para a tela principal ela fica aguardara o contato de futuros pacientes).	
 ## Resultados
 [              ]
 
