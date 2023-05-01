@@ -57,7 +57,7 @@ Obs. importantes: o CPF deve ter 11 caracteres; a uf deve possuir 2 caracteres; 
 Ao realizar o cadastro, as informações do usuário serão armazenadas em um banco de dados relacional.  
 ## Tela de login
 Ao receber a confirmação de análise dos dados cadastrais, o usuário poderá realizar o login. Lembrando que ambos os campos dessa tela são obrigatórios e que a senha deve ter no mínimo 6 caracteres.
-Caso as informações estejam de acordo, o usuário será redirecionado (para a tela principal ela fica aguardara o contato de futuros pacientes).	
+Caso as informações estejam de acordo, o usuário será redirecionado [*para a tela principal ela fica aguardara o contato de futuros pacientes*].	
 ## Resultados
 [              ]
 
