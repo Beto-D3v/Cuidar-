@@ -3626,11 +3626,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\windows\\Desktop\\Faculdade\\5º Semestre\\2º Trimestre\\Projeto PI\\Back\\ApiCuidar\\ApiCuidar.csproj",
+      "projectUniqueName": "C:\\Users\\windows\\Desktop\\Faculdade\\5º Semestre\\2º Trimestre\\Projeto PI\\CuidarMais\\Backend\\ApiCuidar\\ApiCuidar.csproj",
       "projectName": "ApiCuidar",
-      "projectPath": "C:\\Users\\windows\\Desktop\\Faculdade\\5º Semestre\\2º Trimestre\\Projeto PI\\Back\\ApiCuidar\\ApiCuidar.csproj",
+      "projectPath": "C:\\Users\\windows\\Desktop\\Faculdade\\5º Semestre\\2º Trimestre\\Projeto PI\\CuidarMais\\Backend\\ApiCuidar\\ApiCuidar.csproj",
       "packagesPath": "C:\\Users\\windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\windows\\Desktop\\Faculdade\\5º Semestre\\2º Trimestre\\Projeto PI\\Back\\ApiCuidar\\obj\\",
+      "outputPath": "C:\\Users\\windows\\Desktop\\Faculdade\\5º Semestre\\2º Trimestre\\Projeto PI\\CuidarMais\\Backend\\ApiCuidar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

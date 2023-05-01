@@ -26,7 +26,7 @@ namespace ApiCuidar.Controllers
               throw new Exception("O e-mail e/ou a senha estão incorretos!");
             }
 
-           // return View("~/Views/Home/Login.cshtml");
+           // return View("");
            return body;
         }
 
