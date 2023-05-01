@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>tela-login</title>
+  <link href="css/telalogin.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+</head>
+
+<body>
+
+  <header class="top">
+   <p id="contrateTexto">Precisa de cuidador?<br>Clique no botão contrate e aqui.</p>
+   <a href="cuidadores.html"><button class="button button1">Contrate aqui ></button></a>
+   <a href="telainicial.html"><button class="button button2"> Voltar</button></a>
+   <img id="logo" src="./img/logo-cuidar.png" alt="logo">
+  </header>
+
+         
+  <div class="imagem">
+    <img id="acompanhante" src="img/acompanhantes.jpg"  alt="Acompanhante ao lado da paciente">
+    <img id="familiar" src="img/tela inicial.webp"  alt="Familiar segurando a mão do paciente">
+  </div>
+
+  <form onsubmit="return login()" action="POST">
+    <div class="login">
+      <h2 id="title-email">Login como cuidador</h2>
+      
+          <label class="form-title" for="email">E-mail<br></label>
+          <input class="form-label" id="email" type="email">
+          <br><br><br>
+          <label class="form-title" for="password">Senha<br></label>
+          <input class="form-label" id="password" type="password">
+        <br><br><br>
+        <button class="button" id="entrar">Entrar</button>
+        <br><br><br>
+      <a>
+    <a href="cadastro.html"><h5 class="button">Se não possui cadastro<br>clique aqui.</h5></a> 
+      </a>
+    </div>
+</form>
+
+   <script type="text/javascript"  src="js/telalogin.js"></script>
+  
+</body>
+
+</html>
+
+ 
