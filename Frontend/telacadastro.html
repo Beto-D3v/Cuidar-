@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela Cadastro</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/telacadastro.css" /> 
+<script type="text/javascript" src="../js/telacadastro.js"></script>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="header-div">
+        <a href="../screens/telacadastro.html"> < Voltar</a>
+      </div>
+      <div class="header-div">
+        <img alt="logo img" src="../assets/Cuidar + 1.png">
+      </div>
+      <div class="header-div">
+        <p>Precisa de um cuidador? <br>
+          Clique no botão Contrate aqui.
+        </p>
+        <!-- Link precisa ser alterado -->
+        <a href="../screens/telacadastro.html">Contrate aqui > </a>
+      </div>
+      
+    </header>
+    <div class="form-container">
+      <div class="title">
+        <h1>Cadastro</h1>
+      </div>
+      <div class="form">
+        <form onsubmit="return setAction(this)">
+          <div class="section">
+            <div class="field">
+              <label for="name">Nome completo:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="emailaddress">E-mail:</label>
+              <input type="email" id="emailaddress" name="emailaddress" required>
+            </div>
+            <div class="field">
+              <label for="cpf">CPF:</label>
+              <input type="number" id="cpf" name="cpf" required>
+            </div>
+            <div class="field">
+              <label for="birthDate">Data de nascimento:</label>
+              <input type="date" id="birthDate" name="birthDate" required>
+            </div>
+            <div class="field">
+              <label for="phone">Telefone:</label>
+              <input type="tel" id="phone" name="phone" required placeholder="(XX) 9XXXX-XXXX">
+            </div>
+          </div>
+          <div class="line">
+            <hr>
+          </div>
+          <div class="section">
+            <div class="field">
+              <label for="state">Estado:</label>
+              <input type="text" id="state" name="state" required>
+            </div>
+            <div class="field">
+              <label for="city">Cidade:</label>
+              <input type="text" id="city" name="city" required>
+            </div>
+            <div class="field">
+              <label for="profession">Área de atuação:</label>
+              <input type="text" id="profession" name="profession" required>
+            </div>
+            <div class="field">
+              <label for="dayValue">Valor de cobrança - Dia:</label>
+              <input type="number" id="dayValue" name="dayValue">
+            </div>
+            <div class="field">
+              <label for="nightValue">Valor de cobrança - Noite:</label>
+              <input type="number" id="nightValue" name="nightValue">
+            </div>
+          </div>
+          <div class="line">
+            <hr>
+          </div>
+          <div class="section">
+            <div class="field">
+              <label for="professionalNumber">Número de carteira profissional:</label>
+              <input type="number" id="professionalNumber" name="professionalNumber">
+            </div>
+            <div class="field">
+              <label for="presentation">Apresentação:</label>
+              <input type="text" id="presentation" name="presentation" required>
+            </div>
+            <div class="field">
+              <label for="password">Crie uma senha:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <div class="field">
+              <label for="password">Confirme a senha:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <div class="submitButton">
+              <input type="submit" value="Cadastrar">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+
+  </div>
+</body>
+</html>
