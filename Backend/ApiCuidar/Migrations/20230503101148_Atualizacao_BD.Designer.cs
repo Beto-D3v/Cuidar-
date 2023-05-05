@@ -4,6 +4,7 @@ using ApiCuidar.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiCuidar.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230503101148_Atualizacao_BD")]
+    partial class Atualizacao_BD
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,7 +46,7 @@ namespace ApiCuidar.Migrations
                     b.Property<double>("DayValue")
                         .HasColumnType("float");
 
-                    b.Property<string>("EmailAddress")
+                    b.Property<string>("EmailAdress")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -87,7 +90,7 @@ namespace ApiCuidar.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("EmailAddress")
+                    b.Property<string>("EmailAdress")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")

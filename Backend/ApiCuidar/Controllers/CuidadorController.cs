@@ -15,39 +15,53 @@ namespace ApiCuidar.Controllers
         {
             if(!ModelState.IsValid)
             {
-                BadRequest(ModelState);
+                return NotFound();
             }
 
-            var senhaHash = BCrypt.Net.BCrypt.HashPassword(body.Senha);
+            var HashPassword = BCrypt.Net.BCrypt.HashPassword(body.Password);
 
-            var cuidador = new Cuidador()
+            var cpf = await context.Cuidadores.FirstOrDefaultAsync(x => x.Cpf == body.Cpf);
+
+            var email = await context.Cuidadores.FirstOrDefaultAsync(x => x.EmailAddress == body.EmailAddress);
+
+            if(cpf != null || email != null)
             {
-                Nome = body.Nome,
-                Email = body.Email,
-                Cpf = body.Cpf,
-                DataNascimento = body.DataNascimento,
-                Telefone = body.Telefone,
-                Cep = body.Cep,
-                Estado = body.Estado,
-                Cidade = body.Cidade,
-                AreaAtuacao = body.AreaAtuacao,
-                ValorHora = body.ValorHora,
-                NumeroProfissional = body.NumeroProfissional,
-                Senha = senhaHash
-            };
+                return BadRequest("Usuário já cadastrado no sistema!");
+            }
 
-            var usuarioLogin = new UsuarioLogin()
+            else
             {
-                 Email = body.Email,
-                 Senha = senhaHash
-            };
+                 var cuidador = new Cuidador()
+                {
+                    Name = body.Name,
+                    EmailAddress = body.EmailAddress,
+                    Cpf = body.Cpf,
+                    BirthDate = body.BirthDate,
+                    Phone = body.Phone,
+                    State = body.State,
+                    City = body.City,
+                    Profession = body.Profession,
+                    DayValue = body.DayValue,
+                    NightValue = body.NightValue,
+                    ProfessionalNumber = body.ProfessionalNumber,
+                    Presentation = body.Presentation,
+                    Password = HashPassword
+                };
+
+                var usuarioLogin = new UsuarioLogin()
+                {
+                    EmailAddress = body.EmailAddress,
+                    Password = HashPassword
+                };
 
 
-             context.Cuidadores.Add(cuidador);
-             context.UsuarioLogins.Add(usuarioLogin);
-             await context.SaveChangesAsync();
+                context.Cuidadores.Add(cuidador);
+                context.UsuarioLogins.Add(usuarioLogin);
+                await context.SaveChangesAsync();
 
-             return body; 
+                return body;
+
+            }
 
         }
 

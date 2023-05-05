@@ -10,8 +10,8 @@ namespace ApiCuidar.Models
         public int Id{get;set;}
         [Required(ErrorMessage = "O nome é obrigatório")]
         [MinLength(5, ErrorMessage = "O nome deve ter pelo menos 5 caracteres!")]
-        public string? Nome{get;set;}
-        public string? Email{get;set;}
+        public string? Name{get;set;}
+        public string? EmailAddress{get;set;}
         [Required(ErrorMessage = "O CPF é obrigatório")]
         [MinLength(11, ErrorMessage = "O CPF deve ter pelo menos 11 caracteres!")]
         public string? Cpf{get;set;}
@@ -19,21 +19,21 @@ namespace ApiCuidar.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString ="{0:dd/MM/yyyy}")]
         [Required(ErrorMessage = "{0} required")]
-        public DateTime DataNascimento{get;set;}
-        public string? Telefone{get;set;}
-        [Required(ErrorMessage = "O preenchimento do CEP é obrigatório!")]
-        [MinLength(8, ErrorMessage = "O CEP deve ter pelo menos 8 caracteres!")]
-        public string? Cep{get;set;}
-        public string? Estado{get;set;}
-        public string? Cidade{get;set;}
+        public DateTime BirthDate{get;set;}
+        public string? Phone{get;set;}
+        public string? State{get;set;}
+        public string? City{get;set;}
         [Required(ErrorMessage = "O preenchimento da sua área de atuação é obrigatório!")]
-        public string? AreaAtuacao{get;set;}
+        public string? Profession{get;set;}
         [Required(ErrorMessage = "O valor por hora é obrigatório!")]
-        public double ValorHora{get;set;}
+        public double DayValue{get;set;}
+        [Required(ErrorMessage = "O valor por hora é obrigatório!")]
+        public double NightValue{get;set;}
         [Required(ErrorMessage = "O número de validação do profissional é obrigatório!")]
-        public string? NumeroProfissional{get;set;}
+        public string? ProfessionalNumber{get;set;}
+        public string? Presentation{get;set;}
         [MinLength(8, ErrorMessage = "A senha deve ter pelo menos 8 caracteres!")]
-        public string Senha{get;set;}
+        public string Password{get;set;}
 
     }
 }

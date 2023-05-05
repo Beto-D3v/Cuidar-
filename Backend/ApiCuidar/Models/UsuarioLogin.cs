@@ -7,9 +7,9 @@ namespace ApiCuidar.Models
     {
         [Key]
         public int Id{get;set;}
-        public string? Email{get;set;}
+        public string? EmailAddress{get;set;}
         [MinLength(8, ErrorMessage = "A senha deve ter pelo menos 8 caracteres!")]
-        public string Senha{get;set;}
+        public string Password{get;set;}
 
     }
 }

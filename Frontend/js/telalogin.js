@@ -1,10 +1,12 @@
 
-function enviar(email, senha){
+function sendInformations(emailAddress, password){
     
     const data ={
-        Email: email,
-        Senha: senha,
+        emailAddress: emailAddress,
+        password: password,
     }
+
+    console.log(data)
     
     fetch("https://localhost:7200/usuariologin",{
         method:"POST",
@@ -33,28 +35,28 @@ function enviar(email, senha){
 
 
 function login(){
-    let email = document.getElementById("email").value
-    let senha = document.getElementById("password").value
+    let emailAddress = document.getElementById("email").value
+    let password = document.getElementById("password").value
 
-    let erros = []
+    let errors = []
     
-    if(email.length <= 0){
-        erros.push("Digite um e-mail válido!")   
+    if(emailAddress.length <= 5 && emailAddress.indexOf("@") === -1){
+        errors.push("Digite um e-mail válido!")   
     }
     
-    if(senha.length < 8){
-        erros.push("Digite uma senha com mais de 8 caracteres!")
+    if(password.length < 8){
+        errors.push("Digite uma senha com mais de 8 caracteres!")
     }
 
-    if(erros.length == 0){
+    if(errors.length == 0){
     
-        enviar(email, senha)
+        sendInformations(emailAddress, password)
     }
     else{
 
         Swal.fire(
             'Erro!',
-             erros.join("<br><br>"),
+            errors.join("<br><br>"),
             'error'
         )
     }
