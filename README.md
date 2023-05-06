@@ -25,12 +25,12 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 
 •	Entity Framework
 
-•	[...]
+•	Sweet Alert
 
 ## Front-end
-•	[...]
+•	Html/Css
 
-•	[...]
+•	Javascript
 
 •	[...]
 
@@ -44,9 +44,12 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 ## Processo interno
 Dependências para rodar o projeto: [...]
 
-Banco de dados: [...]
+Banco de dados:
+Dependências para rodar o projeto: dotnet run
 
-Iniciando o projeto: [...]
+Banco de dados: Microsoft SQL
+
+iniciando o projeto: dotnet run no terminal
 
 # Testando a aplicação
 ## Tela de boas	 vindas
