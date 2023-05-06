@@ -5,7 +5,7 @@ Projeto Senac
 
 Link de uso do projeto :
 
-O projeto Cuidar+ é uma aplicação [*], que foi desenvolvido pensando em facilitar a gestão e monitoramento dos pacientes idosos que necessitam do acompanhamento hospitalar, ela permite que médicos, enfermeiros e outros profissionais de saúde possam se cadastrar e oferecer seus serviços de maneira integral, proporcionando um atendimento eficiente e seguro aos pacientes. 
+O projeto Cuidar+ é uma aplicação, que foi desenvolvido pensando em facilitar a gestão e monitoramento dos pacientes idosos que necessitam do acompanhamento hospitalar, ela permite que médicos, enfermeiros e outros profissionais de saúde possam se cadastrar e oferecer seus serviços de maneira integral, proporcionando um atendimento eficiente e seguro aos pacientes. 
 
 ## Disposição
 
@@ -20,7 +20,7 @@ A aplicação Cuidar+ foi projetada através da arquitetura padrão MVC (Model V
 Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a view irá apresentar nas telas, como informações para o usuário. E por fim, temos a intermediação das camadas que serão executadas pelo controlador.
 
 # Tecnologias utilizadas
-## Processo interno
+## Back end
 •	C#
 
 •	Entity Framework
@@ -41,10 +41,7 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 
 [              ]
 
-## Processo interno
-Dependências para rodar o projeto: [...]
-
-Banco de dados:
+## Back end
 Dependências para rodar o projeto: dotnet run
 
 Banco de dados: Microsoft SQL
