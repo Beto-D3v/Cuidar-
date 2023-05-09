@@ -13,27 +13,24 @@ html, body {
 header {
   border: 1px solid #03A0F8;
   background-color: #FFFFFF;
-
   padding: 20px 15px;
   margin-bottom: 30px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-height: 200px;
 }
 
 .header-div img{
   display: inline-block;
   text-align: center;
   align-items: center;
-
   width: 400px;
 }
 
 .header-div p {
   margin-block: 0 10px;
   padding: 0;
-
   font-weight: 700;
 }
 
@@ -56,7 +53,6 @@ header {
 .form-container {
   border: 1px solid #03A0F8;
   background-color: #EDFEFF;
-
   padding-inline: 15px;
 }
 

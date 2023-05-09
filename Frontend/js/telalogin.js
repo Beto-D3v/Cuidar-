@@ -22,6 +22,11 @@ function sendInformations(emailAddress, password){
                 'Login executado com sucesso!',
                 'success'
             )
+            
+          setTimeout(function() {
+            window.location.href = "http://127.0.0.1:5500/Frontend/tela-contrate.html";
+          }, 5000);
+            
             })
     .catch((error) =>{
         Swal.fire(

@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+
+  .logo{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 80px;
+    margin: 10px;
+    top:-110px;
+  }
+
+  h1{
+    position: absolute;
+    width: 231px;
+    height: 38px;
+    left: 900px;
+    top: 22px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #191619;
+    
+  }
+
+  .container{
+    position: relative;
+    top: 20px;
+  }
+
+#telaInicial{
+    position: absolute;
+    width: 1400px;
+    height: 500px;
+    left: 10px;
+    top: 120px;
+    background: url(/Front-End/assets/img/tela\ inicial.jpg);
+    transform: matrix(1,0,0,1,0,0);
+    border: 1px solid;
+    border-color: #03A0F8;
+}
+
+#texto1{
+  position: absolute;
+  width: 779px;
+  height: 110px;
+  left: 280px;
+  top: 300px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 44px;
+  line-height: 55px;
+  color: #191619;
+  text-align: center;
+
+}
+
+#texto2{
+    position:absolute;
+    width: 447px;
+    height: 44px;
+    left: 500px;
+    top: 400px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #191619;
+}
+
+
+
+h2{
+  position: absolute;
+  width: 119.8px;
+  height: 43px;
+  left: 10px;
+  top: 680px;
+  border: 1px solid;
+  width: 1280px;
+  height: 150px;
+  padding: 20px;
+  background-color: #79c3db;
+  border-color: #03A0F8;
+  border-radius: 5px;
+  
+}
+
+#texto3{
+  position: absolute;
+  width: 1300px;
+  height: 85px;
+  left: 26.48px;
+  line-height: 2;
+  top: 750px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.button{
+  cursor: pointer;
+}
+
+h3{
+  position: absolute;
+  width: 1300px;
+  height: 85px;
+  left: 26.48px;
+  top: 950px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  color: #030303;
+}
+
+#texto4{
+  position: absolute;
+  width: 119.8px;
+  height: 43px;
+  left: 10px;
+  top: 980px;
+  border: 1px solid;
+  background-color: #79c3db;
+  border-color: #03A0F8;
+  width: 700px;
+  height: 90px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+.logo1{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 1050px;
+  top: 900px;
+}
+
+
+.button1 {
+  position: absolute;
+  width: 200px;
+  height: 38px;
+  left: 1120px;
+  top: 22px;
+  text-decoration:"none";
+  text-align: center;
+  background: white;
+  border-color: #0CBBC7 ;
+  border-radius: 5px;
+} 
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 170px;
+  height: 48px;
+  left: 580px;
+  top: 480px;
+  background: #0CBBC7;
+  border-color: #0CBBC7;
+  border-radius: 5px;
+}
