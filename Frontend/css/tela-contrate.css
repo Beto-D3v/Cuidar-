@@ -8,10 +8,20 @@
 
 .logo2{
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 135px;
     left: 500px;
-    top: -90px;
+    top: 0px;
+}
+
+.top{
+  box-sizing: border-box;
+  position: absolute;
+  width: 1340px;
+  height: 140px;  
+  background: #FFFFFF;
+  border: 1px solid #03A0F8;
+  margin:5px;
 }
 
 #texto3 {
