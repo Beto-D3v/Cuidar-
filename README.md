@@ -8,9 +8,9 @@ Link de uso do projeto :
 O projeto Cuidar+ é uma aplicação, que foi desenvolvido pensando em facilitar a gestão e monitoramento dos pacientes idosos que necessitam do acompanhamento hospitalar, ela permite que médicos, enfermeiros e outros profissionais de saúde possam se cadastrar e oferecer seus serviços de maneira integral, proporcionando um atendimento eficiente e seguro aos pacientes. 
 
 ## Layout
-<img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Tela%20inicial.png"  width="500" height="300"> <img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Fluxo%201%20Tela%20Contrate%20Aqui.png" width="500" height="300">
-<img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Fluxo%202%20Tela%20de%20Login%20Cuidadores.png" width="500" height="300"> <img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Fluxo%202%20Tela%20de%20Cadastro%20Pop-UP%20cadastro%20realizado.png" width="500" height="300">
-<img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Fluxo%202%20Tela%20de%20Cadastro%20Cuidadores.png" width="500" height="300">
+<img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Tela%20inicial.png"  width="400" height="200"> <img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Fluxo%201%20Tela%20Contrate%20Aqui.png" width="400" height="200">
+<img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Fluxo%202%20Tela%20de%20Login%20Cuidadores.png" width="400" height="200"> <img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Fluxo%202%20Tela%20de%20Cadastro%20Pop-UP%20cadastro%20realizado.png" width="400" height="200">
+<img src="https://github.com/GrupoSenac/CuidarMais/blob/main/img/Fluxo%202%20Tela%20de%20Cadastro%20Cuidadores.png" width="400" height="200">
 
 
 
