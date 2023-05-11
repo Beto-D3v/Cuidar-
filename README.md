@@ -48,7 +48,7 @@ Dependências para rodar o projeto: BCrypt, EntityFramework, .NET 6.
 
 Banco de dados: Microsoft SQL
 
-iniciando o projeto: comando dotnet run.
+iniciando o projeto: comando dotnet run no terminal do Visual Studio Code.
 
 # Testando a aplicação
 ## Tela inicial
