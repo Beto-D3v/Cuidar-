@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X9UmTkUrzwWQTJX2cefWEi6rdSgA2EOOv1ID7njXw8SDIscGMekd70bjFa83rRrNoMCdAGxxdcTPap3+288PXg==",
+  "dgSpecHash": "sTbzNoJUtB7kVuOQi0adynNL8WsrUjaeICdaUByqlJ4ZeYEQcPesp1/fT0r55kCm+bwVCSpXwgIh7Z3z2eHPHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\windows\\Desktop\\Faculdade\\5º Semestre\\2º Trimestre\\Projeto PI\\CuidarMais\\Backend\\Apicuidar\\ApiCuidar.csproj",
+  "projectFilePath": "C:\\Users\\windows\\Desktop\\Faculdade\\5º Semestre\\2º Trimestre\\Projeto PI\\CuidarMais\\Backend\\ApiCuidar\\ApiCuidar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\windows\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\windows\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
