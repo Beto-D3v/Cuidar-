@@ -55,7 +55,7 @@ iniciando o projeto: dotnet run no terminal
 Na primeira página, há duas opções de caminho para o usuário: clicar no botão de contrate aqui ou seja um cuidador. Ao clicar em contrate aqui, o usuário será direcionado para uma tela na qual ele terá os cuidadores a disposição. Ao clicar no botão seja um cuidador, será carregado uma tela de login.
 
 ## Tela de login
-Na tela de login caso o usuário não possuir cadastro, ele poderá clicar em “Se não possui cadastro clique aqui”.
+Na tela de login, caso o usuário não possuir cadastro, ele poderá clicar em “Se não possui cadastro clique aqui”.
 Ao receber a confirmação de análise dos dados cadastrais, o usuário poderá realizar o login. Lembrando que ambos os campos dessa tela são obrigatórios e que a senha deve ter no mínimo 9 caracteres.
 
 ## Tela de contrate aqui
