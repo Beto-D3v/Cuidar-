@@ -59,7 +59,7 @@ Na tela de login, caso o usuário não possuir cadastro, ele poderá clicar em �
 Ao receber a confirmação de análise dos dados cadastrais, o usuário poderá realizar o login. Lembrando que ambos os campos dessa tela são obrigatórios e que a senha deve ter no mínimo 9 caracteres.
 
 ## Tela de contrate aqui
-Nesta tela, é apresenta uma tabela com a ficha técnica dos profissionais e o preço que estes cobram pelo serviço.
+Nesta tela, é apresentada uma tabela com a ficha técnica dos profissionais e o preço que estes cobram pelo serviço.
 
 ## Tela de cadastro
 Nesta tela, o usuário deverá digitar seus dados e preencher todos os campos obrigatórios (nome, e-mail, CPF, idade, Telefone, Estado, Cidade, Área de atuação, Valor de cobrança – Dia, Valor de cobrança – Noite, Número da carteira profissional, Senha).
