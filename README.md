@@ -41,7 +41,7 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 # Executando o projeto
 ## Front-end
 
-[              ]
+iniciando o projeto: Control + F5 na pasta inicial do projeto.
 
 ## Back end
 Dependências para rodar o projeto: dotnet run
