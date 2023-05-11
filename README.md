@@ -65,7 +65,7 @@ Nesta tela, é apresentada uma tabela com a ficha técnica dos profissionais e o
 Nesta tela, o usuário deverá digitar seus dados e preencher todos os campos obrigatórios (nome, e-mail, CPF, idade, Telefone, Estado, Cidade, Área de atuação, Valor de cobrança – Dia, Valor de cobrança – Noite, Número da carteira profissional, Senha).
 
 Obs. Importantes: O CPF deve ter 11 caracteres; A senha deve ter 9 caracteres, no mínimo; Senha e confirmação de senha devem ser iguais.
-Caos as informações estejam de acordo, ele receberá um pop-up informando que o cadastro foi executado com sucesso! E ele será redirecionado para a tela de login.
+Caso as informações estejam de acordo, ele receberá um pop-up informando que o cadastro foi executado com sucesso! E ele será redirecionado para a tela de login.
 
 Ao realizar o cadastro, as informações do usuário serão armazenadas em um banco de dados relacional.  
 
