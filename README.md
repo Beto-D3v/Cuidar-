@@ -56,18 +56,18 @@ Na primeira página, há duas opções de caminho para o usuário: clicar no bot
 
 ## Tela de login
 Na tela de login, caso o usuário não possuir cadastro, ele poderá clicar em “Se não possui cadastro clique aqui”.
-Ao receber a confirmação de análise dos dados cadastrais, o usuário poderá realizar o login. Lembrando que ambos os campos dessa tela são obrigatórios e que a senha deve ter no mínimo 9 caracteres.
+Ao receber a confirmação de análise dos dados cadastrais, o usuário poderá realizar o login. Lembrando que ambos os campos dessa tela são obrigatórios e que a senha deve ter no mínimo 9 caracteres. O servidor fara a validação do dados informados, constatando que estão no formato válido.
 
 ## Tela de contrate aqui
 Nesta tela, é apresentada uma tabela com a ficha técnica dos profissionais e o preço que estes cobram pelo serviço.
 
 ## Tela de cadastro
-Nesta tela, o usuário deverá digitar seus dados e preencher todos os campos obrigatórios (nome, e-mail, CPF, idade, Telefone, Estado, Cidade, Área de atuação, Valor de cobrança – Dia, Valor de cobrança – Noite, Número da carteira profissional, Senha).
+Nesta tela, o usuário deverá digitar seus dados e preencher todos os campos obrigatórios (nome, e-mail, CPF, idade, Telefone, Estado, Cidade, Área de atuação, Valor de cobrança – Dia, Valor de cobrança – Noite, Número da carteira profissional, Senha). 
 
 Obs. Importantes: O CPF deve ter 11 caracteres; A senha deve ter 9 caracteres, no mínimo; Senha e confirmação de senha devem ser iguais.
 Caso as informações estejam de acordo, ele receberá um pop-up informando que o cadastro foi executado com sucesso! E ele será redirecionado para a tela de login.
 
-Ao realizar o cadastro, as informações do usuário serão armazenadas em um banco de dados relacional.  
+Ao realizar o cadastro, as informações do usuário serão validadas pelo servidor e armazenadas em um banco de dados relacional.
 
 ## Resultados
 O backend e o frontend foram desenvolvidos, testados e estão funcionando separadamente.[              ]
