@@ -37,18 +37,18 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 •	SweetAlert
 
 ## Banco de dados relacional
-• [              ]
+• Microsoft SQL Server Management Studio 18
 # Executando o projeto
 ## Front-end
 
 iniciando o projeto: Control + F5 na pasta inicial do projeto.
 
 ## Back end
-Dependências para rodar o projeto: dotnet run
+Dependências para rodar o projeto: dotnet run, BCrypt, EntityFramework
 
 Banco de dados: Microsoft SQL
 
-iniciando o projeto: dotnet run no terminal
+iniciando o projeto: dotnet new webapi -n ApiCuidar
 
 # Testando a aplicação
 ## Tela inicial
