@@ -60,7 +60,7 @@ Na primeira página, há duas opções de caminho para o usuário: clicar no bot
 
 ## Tela de login
 Na tela de login, caso o usuário não possuir cadastro, ele poderá clicar em “Se não possui cadastro clique aqui”.
-Ao receber a confirmação de análise dos dados cadastrais, o usuário poderá realizar o login. Lembrando que ambos os campos dessa tela são obrigatórios e que a senha deve ter no mínimo 8 caracteres. Há validações de dados sendo feitas pelo servidor, constatando que os dados informados estão no formato válido.
+Ao receber a confirmação de análise dos dados cadastrais, o usuário poderá realizar o login. Lembrando que ambos os campos dessa tela são obrigatórios e que a senha deve ter no mínimo 8 caracteres. Há validações sendo feitas pelo servidor, onde é verificado se os dados informados estão no formato válido, caso contrário o usuário ira receber um pop-up de erro solicitando que preencha os dados corretamente.
 
 ## Tela de contrate aqui
 Nesta tela, é apresentada uma tabela com a ficha técnica dos profissionais e o preço que estes cobram pelo serviço.
