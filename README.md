@@ -44,11 +44,11 @@ Neste padrão, o Model do projeto, conterá a parte da lógica de negócios, a v
 iniciando o projeto: Control + F5 na pasta inicial do projeto.
 
 ## Back end
-Dependências para rodar o projeto: dotnet run, BCrypt, EntityFramework
+Dependências para rodar o projeto: BCrypt, EntityFramework, .NET 6.
 
 Banco de dados: Microsoft SQL
 
-iniciando o projeto: dotnet new webapi -n ApiCuidar
+iniciando o projeto: comando dotnet run.
 
 # Testando a aplicação
 ## Tela inicial
