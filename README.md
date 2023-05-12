@@ -74,7 +74,7 @@ Caso as informações estejam de acordo, ele receberá um pop-up informando que 
 Ao realizar o cadastro, as informações do usuário serão validadas pelo servidor e armazenadas em um banco de dados relacional.
 
 ## Resultados
-O backend e o frontend foram desenvolvidos, testados e estão funcionando separadamente.[              ]
+O backend e o frontend foram desenvolvidos, testados e estão funcionando separadamente e a integração entre as duas partes está funcionando de forma eficaz.
 
 # Autores:
 - Amanda Barreto Rocha
